@@ -62,6 +62,38 @@
 #homepage{
     width:100vw;
     height: 100vh;
-    
+    background: #416181;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38b3be, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #4280be); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:5rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size:2.5rem;
+    font-family:sans-serif;
+}
+.image{
+    padding:80px;
+    position:relative;
+    width:100vw;
+    height:80vh;
+    display:flex;
+    justify-content: center;
+}
+img{
+    width:300px;
+    height: 200px;
+}
+#img1{
+   align-self: flex-end;
+}
+#img2{
+    align-self:flex-start;
 }
 
